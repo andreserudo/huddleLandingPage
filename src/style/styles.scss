@@ -1,3 +1,40 @@
 body {
   background-color: rgb(255, 255, 255);
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  .resume {
+    display: flex;
+    flex-direction: column;
+    .resume-description {
+      display: flex;      
+    }
+  }
+
+  .values {
+    display: flex;
+    flex-direction: column;
+    
+    .value-item {
+      display: flex;
+      
+  
+    }
+  }
+
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+
+    .more-info{
+      display: flex;
+      flex-direction: column;
+
+      .footer{
+        display: flex;
+      }
+    }
+  }
+}
