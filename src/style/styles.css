@@ -142,12 +142,26 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .content .values .value-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.content .values .value-item .text {
+  width: 60%;
+}
+
+.content .values .value-item img {
+  width: 40%;
+  padding: 3rem;
 }
 
 .content .subscribe {

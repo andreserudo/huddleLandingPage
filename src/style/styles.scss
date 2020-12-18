@@ -111,10 +111,24 @@ body {
     display: flex;
     flex-direction: column;
     
+    padding-top: 8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
     .value-item {
       display: flex;
       
-  
+      border: 1px solid black;
+      border-radius: 10px;
+
+      .text {
+        width: 60%;
+      }
+
+      img {
+        width: 40%;
+        padding: 3rem;        
+      }
     }
   }
 
