@@ -171,8 +171,8 @@ body {
       .value-img-opposite {
         width: 40%;
         padding-top: 3rem;
-        padding-bottom: 3rem;        
-        padding-left: 8rem;        
+        padding-bottom: 3rem;
+        padding-left: 8rem;
       }
     }
 
@@ -184,6 +184,10 @@ body {
   .subscribe {
     display: flex;
     flex-direction: column;
+
+    .link {
+      border: 1px solid black;
+    }
 
     .more-info{
       display: flex;
