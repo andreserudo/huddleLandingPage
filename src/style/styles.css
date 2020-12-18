@@ -7,6 +7,7 @@
 
 body {
   background-color: white;
+  font-family: 'Popins', sans-serif;
 }
 
 .content {
@@ -28,12 +29,109 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
+  background-image: url(../assets/bg-hero-desktop.svg);
+  background-color: #edfbfe;
+  padding-top: 2.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.content .resume header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 3rem;
+}
+
+.content .resume header .button-try {
+  padding-top: .8rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  font-size: smaller;
+  font-weight: bold;
+  color: #00252e;
+  background-color: white;
+  -webkit-box-shadow: -1px 4px 10px -3px rgba(0, 0, 0, 0.42);
+          box-shadow: -1px 4px 10px -3px rgba(0, 0, 0, 0.42);
+  border-radius: 20px;
+}
+
+.content .resume header .button-try:hover {
+  -webkit-box-shadow: -1px 4px 9px -3px rgba(0, 0, 0, 0.83);
+          box-shadow: -1px 4px 9px -3px rgba(0, 0, 0, 0.83);
 }
 
 .content .resume .resume-description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 4rem;
+}
+
+.content .resume .resume-description .resume-text {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .resume .resume-description .resume-text h1 {
+  width: 80%;
+  padding-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: #00252e;
+}
+
+.content .resume .resume-description .resume-text p {
+  line-height: 1.5;
+  color: #00252e;
+  padding-bottom: 2rem;
+}
+
+.content .resume .resume-description .resume-text a {
+  padding-top: .8rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: #ff52bf;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px 4px 9px -3px rgba(255, 82, 191, 0.47);
+          box-shadow: -1px 4px 9px -3px rgba(255, 82, 191, 0.47);
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+}
+
+.content .resume .resume-description .resume-text a:hover {
+  -webkit-box-shadow: -1px 4px 9px -3px rgba(255, 82, 191, 0.73);
+          box-shadow: -1px 4px 9px -3px rgba(255, 82, 191, 0.73);
+}
+
+.content .resume .resume-description .resume-image {
+  width: 60%;
+  padding-left: 4rem;
+}
+
+.content .resume .resume-description .resume-image img {
+  width: 100%;
 }
 
 .content .values {
