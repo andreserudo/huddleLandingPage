@@ -54,7 +54,7 @@ body {
   text-decoration: none;
   font-size: smaller;
   font-weight: bold;
-  color: #1c1e1e;
+  color: #00252e;
   background-color: white;
   -webkit-box-shadow: -1px 4px 10px -3px rgba(0, 0, 0, 0.42);
           box-shadow: -1px 4px 10px -3px rgba(0, 0, 0, 0.42);
@@ -82,16 +82,52 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
+.content .resume .resume-description .resume-text h1 {
+  width: 80%;
+  padding-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: #00252e;
+}
+
+.content .resume .resume-description .resume-text p {
+  line-height: 1.5;
+  color: #00252e;
+  padding-bottom: 2rem;
+}
+
+.content .resume .resume-description .resume-text a {
+  padding-top: .8rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: #ff52bf;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px 4px 9px -3px rgba(255, 82, 191, 0.47);
+          box-shadow: -1px 4px 9px -3px rgba(255, 82, 191, 0.47);
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+}
+
+.content .resume .resume-description .resume-text a:hover {
+  -webkit-box-shadow: -1px 4px 9px -3px rgba(255, 82, 191, 0.73);
+          box-shadow: -1px 4px 9px -3px rgba(255, 82, 191, 0.73);
+}
+
 .content .resume .resume-description .resume-image {
   width: 60%;
+  padding-left: 4rem;
 }
 
 .content .resume .resume-description .resume-image img {
