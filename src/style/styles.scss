@@ -16,7 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    
+    background-image: url(../assets/bg-hero-desktop.svg);
+    background-color: rgb(237, 251, 254);
     .resume-description {
       display: flex;      
     }

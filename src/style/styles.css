@@ -28,6 +28,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
+  background-image: url(../assets/bg-hero-desktop.svg);
+  background-color: #edfbfe;
 }
 
 .content .resume .resume-description {
