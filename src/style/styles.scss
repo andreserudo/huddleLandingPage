@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -5,9 +11,12 @@ body {
 .content {
   display: flex;
   flex-direction: column;
+  
   .resume {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    
     .resume-description {
       display: flex;      
     }
