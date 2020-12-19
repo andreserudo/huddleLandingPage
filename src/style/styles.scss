@@ -349,6 +349,24 @@ body {
         }
       }
     }
+
+    .subscribe {
+      padding-top: 6rem;
+      .more-info {
+        padding-left: unset;
+        .link {
+          top:-100px;
+          align-items: center;
+          padding: 2rem 1.5rem;
+          h1 {
+            font-size: larger;
+          }
+          a {
+            font-size: small;
+          }
+        }
+      }
+    }
   }
 
 }

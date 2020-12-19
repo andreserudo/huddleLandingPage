@@ -438,5 +438,24 @@ body {
   .content .values .value-item .text p, .content .values .value-item .text-opposite p {
     text-align: center;
   }
+  .content .subscribe {
+    padding-top: 6rem;
+  }
+  .content .subscribe .more-info {
+    padding-left: unset;
+  }
+  .content .subscribe .more-info .link {
+    top: -100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem 1.5rem;
+  }
+  .content .subscribe .more-info .link h1 {
+    font-size: larger;
+  }
+  .content .subscribe .more-info .link a {
+    font-size: small;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
