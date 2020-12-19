@@ -402,5 +402,41 @@ body {
     padding-left: unset;
     padding-top: 2rem;
   }
+  .content .values {
+    padding: 4rem 2rem;
+  }
+  .content .values .value-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content .values .value-item .value-img, .content .values .value-item .value-img-opposite {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 80%;
+    padding: 3rem 0;
+  }
+  .content .values .value-item .text, .content .values .value-item .text-opposite {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: unset;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+  }
+  .content .values .value-item .text h2, .content .values .value-item .text-opposite h2 {
+    font-size: larger;
+  }
+  .content .values .value-item .text p, .content .values .value-item .text-opposite p {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
