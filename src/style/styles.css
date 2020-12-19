@@ -438,5 +438,57 @@ body {
   .content .values .value-item .text p, .content .values .value-item .text-opposite p {
     text-align: center;
   }
+  .content .subscribe {
+    padding-top: 6rem;
+  }
+  .content .subscribe .more-info {
+    padding-left: unset;
+    padding-bottom: 3rem;
+  }
+  .content .subscribe .more-info .link {
+    top: -100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem 1.5rem;
+  }
+  .content .subscribe .more-info .link h1 {
+    font-size: larger;
+  }
+  .content .subscribe .more-info .link a {
+    font-size: small;
+  }
+  .content .subscribe .more-info .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 1rem;
+  }
+  .content .subscribe .more-info .footer .contact {
+    width: unset;
+    padding-right: unset;
+    padding-bottom: 2rem;
+  }
+  .content .subscribe .more-info .footer .map-site {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 2rem;
+  }
+  .content .subscribe .more-info .footer .social-copyright {
+    width: unset;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .content .subscribe .more-info .footer .social-copyright .social {
+    padding-bottom: 1rem;
+  }
+  .content .subscribe .more-info .footer .social-copyright .copyright {
+    font-size: small;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

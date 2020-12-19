@@ -349,6 +349,49 @@ body {
         }
       }
     }
+
+    .subscribe {
+      padding-top: 6rem;
+      .more-info {
+        padding-left: unset;
+        padding-bottom: 3rem;
+        .link {
+          top:-100px;
+          align-items: center;
+          padding: 2rem 1.5rem;
+          h1 {
+            font-size: larger;
+          }
+          a {
+            font-size: small;
+          }
+        }
+        .footer {
+          flex-direction: column;
+          padding-left: 1rem;
+          .contact {
+            width: unset;
+            padding-right: unset;
+            padding-bottom: 2rem;
+          }
+          .map-site {
+            grid-template-columns: 1fr;
+            padding-bottom: 2rem;
+          }
+          .social-copyright {
+            width: unset;
+            align-items: center;            
+            justify-content: start;
+            .social {
+              padding-bottom: 1rem;
+            }
+            .copyright {
+              font-size: small;
+            }
+          }
+        }
+      }
+    }
   }
 
 }
