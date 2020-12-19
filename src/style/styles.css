@@ -381,6 +381,26 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content .resume .resume-description .resume-text {
+    width: unset;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content .resume .resume-description .resume-text h1 {
+    font-size: 1.5rem;
+  }
+  .content .resume .resume-description .resume-text p {
+    text-align: center;
+  }
+  .content .resume .resume-description .resume-image {
+    width: 90%;
+    padding-left: unset;
+    padding-top: 2rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
