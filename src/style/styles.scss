@@ -1,3 +1,5 @@
+@import '_mediaQueries';
+
 * {
   margin: 0;
   padding: 0;
@@ -274,4 +276,51 @@ body {
       }
     }
   }
+}
+@include responsive(mobile) {
+
+  .content {
+    .resume {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      header {
+        align-items: center;
+        width: 100%;        
+        a {
+          img {
+            width: 120px;
+          }
+        }
+
+        .button-try {
+          display: flex;
+          align-items: center;
+
+          padding: .4rem 1.5rem;
+        }
+      }
+      .resume-description {
+        flex-direction: column;
+        align-items: center;
+        .resume-text {
+          width: unset;
+          align-items: center;
+          h1 {
+            font-size: 1.5rem;
+          }
+          p {
+            text-align: center;
+          }
+        }
+
+        .resume-image {
+          width: 90%;
+          padding-left: unset;
+          padding-top: 2rem;
+        }
+      }
+    }
+
+  }
+
 }
