@@ -4,9 +4,8 @@
 
 ## Welcome! 👋
 
-This project is not done yet.
+The live version is here: [Huddle Landing Page](https://huddle-landing-page-serudo.vercel.app/)
 
-Come back later :smiley:
 
 ## Getting Started
 
