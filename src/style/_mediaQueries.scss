@@ -5,6 +5,12 @@
     }    
   }
 
+  @if $breakpoints == valueSection {
+    @media only screen and (max-width: 860px) {
+      @content;
+    }
+  }
+
   @if $breakpoints == responsive {
     @media only screen and (max-width: 1050px) {
       @content;

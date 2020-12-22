@@ -438,3 +438,41 @@ body {
   }
 
 }
+
+@include responsive(valueSection) {
+  .content {
+    .values {
+      .value-item {
+        .text, .value-img-opposite {
+          padding-left: 3rem;
+          padding-right: 1rem;
+          h2 {
+            font-size: large;
+            padding-bottom: 0.5rem;
+          }
+          p {
+            font-size: smaller;
+          }  
+        }        
+        .text-opposite {
+          padding-left: 6rem;
+          h2 {
+            font-size: large;
+            padding-bottom: 0.5rem;
+          }  
+          p {
+            font-size: smaller;
+          }  
+
+        }
+      }
+    }
+    .subscribe {
+      .more-info {
+        .link {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

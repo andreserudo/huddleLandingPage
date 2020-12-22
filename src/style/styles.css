@@ -531,4 +531,31 @@ body {
     font-size: small;
   }
 }
+
+@media only screen and (max-width: 860px) {
+  .content .values .value-item .text, .content .values .value-item .value-img-opposite {
+    padding-left: 3rem;
+    padding-right: 1rem;
+  }
+  .content .values .value-item .text h2, .content .values .value-item .value-img-opposite h2 {
+    font-size: large;
+    padding-bottom: 0.5rem;
+  }
+  .content .values .value-item .text p, .content .values .value-item .value-img-opposite p {
+    font-size: smaller;
+  }
+  .content .values .value-item .text-opposite {
+    padding-left: 6rem;
+  }
+  .content .values .value-item .text-opposite h2 {
+    font-size: large;
+    padding-bottom: 0.5rem;
+  }
+  .content .values .value-item .text-opposite p {
+    font-size: smaller;
+  }
+  .content .subscribe .more-info .link {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
