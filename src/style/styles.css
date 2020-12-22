@@ -353,6 +353,31 @@ body {
   padding-right: .25rem;
 }
 
+@media only screen and (max-width: 1050px) {
+  .content .resume .resume-description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 2rem;
+  }
+  .content .resume .resume-description .resume-text {
+    width: 80%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .content .resume .resume-description .resume-image {
+    width: 80%;
+    padding-left: unset;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .content .resume {
     padding-left: 1.5rem;
